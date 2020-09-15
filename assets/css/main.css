@@ -3532,6 +3532,7 @@
 
 		#nav > ul {
 			margin: 0;
+			list-style:none;
 		}
 
 			#nav > ul > li {
@@ -3557,6 +3558,7 @@
 
 				#nav > ul > li.active a {
 					color: white;
+					list-style:none;
 				}
 
 				#nav > ul > li > ul {
@@ -3573,6 +3575,7 @@
 		min-width: 12em;
 		padding: 1em 0;
 		color: white;
+		list-style:none;
 	}
 
 		.dropotron > li {
@@ -3594,8 +3597,9 @@
 		.dropotron.level-0 {
 			border-radius: 0 0 4px 4px;
 			font-size: 1em;
-			margin-left: -0.5em;
+			margin-left: -0.5em
 		}
+
 
 
 
