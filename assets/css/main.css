@@ -3487,7 +3487,15 @@
 	#header {
 		color: white;
 		height: 4em;
-        		background-color: rgba( 0, 0, 0, 0.5 );
+        		background-color: rgb(0,0,0);
+		opacity:0.5;
+		background-size: cover;
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: 1030;
+		text-align: right;
 	}
 
 	#header .container {
@@ -3495,11 +3503,6 @@
 			}
 
 	.homepage #nav {
-		position: fixed;
-		top: 0;
-		right: 0;
-		left: 0;
-		z-index: 1030;
 		text-align: center;
 	}
 
@@ -3601,7 +3604,7 @@
 	.banner {
 		background-color: #8a4680;
 		color: #e2d1df;
-		padding: 8em 0;
+		padding: 6em 0em 3em 0em;
 		position: relative;
 	}
 
